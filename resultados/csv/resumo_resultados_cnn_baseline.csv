@@ -1,0 +1,24 @@
+item,valor
+modelo,CNN baseline
+altura_entrada,224
+largura_entrada,224
+canais,3
+batch_size,32
+seed,42
+parametros_treinaveis,421441
+optimizer,Adam
+learning_rate,0.001
+loss,BinaryCrossentropy
+epocas_maximas,30
+epocas_executadas,21
+melhor_epoca,16
+melhor_val_loss,0.15469224750995636
+accuracy_teste,0.9466437177280551
+precision_teste,0.9528301886792453
+recall_teste,0.9734939759036144
+f1_teste,0.9630512514898689
+roc_auc_teste,0.9891856582958339
+tn,146
+fp,20
+fn,11
+tp,404
