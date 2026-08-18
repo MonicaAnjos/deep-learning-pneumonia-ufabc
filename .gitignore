@@ -1,0 +1,40 @@
+# ============================================================
+# Projeto Deep Learning - UFABC
+# Arquivos que não devem ser versionados
+# ============================================================
+
+# Dataset original
+chest_xray/
+data/raw/
+dados_originais/
+
+# Modelos treinados / checkpoints
+*.keras
+*.h5
+*.ckpt
+
+# Ambientes Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos compactados / datasets grandes
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Arquivos temporários
+*.tmp
+*.temp
