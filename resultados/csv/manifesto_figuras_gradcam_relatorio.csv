@@ -1,0 +1,5 @@
+tipo_caso,nome_arquivo,arquivo_figura,classe_real,classe_explicada_cnn,confianca_cnn,classe_explicada_resnet,confianca_resnet,criterio_selecao
+FP_COMPARTILHADO,NORMAL2-IM-0330-0001.jpeg,gradcam_fp_compartilhado_0330.png,NORMAL,PNEUMONIA,0.5116511583328247,PNEUMONIA,0.945227324962616,Erro compartilhado priorizado antes do Grad-CAM; grande diferença de confiança entre CNN e ResNet50.
+FN_COMPARTILHADO,person277_virus_571.jpeg,gradcam_fn_compartilhado_person277.png,PNEUMONIA,NORMAL,0.9796798527240753,NORMAL,0.8799381926655769,Erro compartilhado previamente priorizado; ambos os modelos favorecem incorretamente NORMAL.
+TN_CONTROLE,IM-0629-0001-0001.jpeg,gradcam_tn_controle.png,NORMAL,NORMAL,0.9879494402557611,NORMAL,0.943863146007061,Controle correto selecionado pela confiança média mais próxima da mediana dos TN compartilhados.
+TP_CONTROLE,person111_bacteria_537.jpeg,gradcam_tp_controle.png,PNEUMONIA,PNEUMONIA,0.9976246953010559,PNEUMONIA,0.9995672106742859,Controle correto selecionado pela confiança média mais próxima da mediana dos TP compartilhados.

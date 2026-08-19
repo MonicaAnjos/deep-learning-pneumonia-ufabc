@@ -1,0 +1,26 @@
+metrica,valor
+camada_gradcam_cnn,conv2d_3
+resolucao_gradcam_cnn,28x28
+camada_gradcam_resnet50,conv5_block3_out
+resolucao_gradcam_resnet50,7x7
+regra_classe_explicada,classe predita pelo modelo
+imagens_erros_compartilhados,11
+falsos_negativos_compartilhados,5
+falsos_positivos_compartilhados,6
+controles_corretos,2
+imagens_inspecionadas_total,13
+mapas_gradcam_total,26
+cnn_foco_periferico,13
+cnn_foco_toracico,0
+cnn_foco_misto,0
+cnn_marcador_texto_sim,11
+cnn_bordas_periferia_sim,13
+cnn_regiao_toracica_sim,0
+resnet50_foco_periferico,5
+resnet50_foco_toracico,5
+resnet50_foco_misto,3
+resnet50_marcador_texto_sim,0
+resnet50_bordas_periferia_sim,13
+resnet50_regiao_toracica_sim,13
+figuras_finais_relatorio,4
+interpretacao,analise qualitativa exploratoria; Grad-CAM nao demonstra causalidade nem validacao clinica
